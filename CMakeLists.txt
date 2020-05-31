@@ -1,0 +1,5 @@
+set(COMPONENT_SRCDIRS "src")
+set(COMPONENT_ADD_INCLUDEDIRS "inc")
+idf_component_register( SRC_DIRS ${COMPONENT_SRCDIRS}
+                        INCLUDE_DIRS  ${COMPONENT_ADD_INCLUDEDIRS} )
+
